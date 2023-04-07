@@ -1,7 +1,7 @@
 # Iterating over a single list
 L = ["a", "b", "c", "d"]
 
-# OK version 🤔 - Index in range ❌ 
+# OK version 🤔 - Index in range ❌
 for i in range(len(L)):
     val = L[i]
     print(i, val)
@@ -19,7 +19,7 @@ for i, val in enumerate(L):
 A = ["a", "b", "c", "d"]
 B = ["e", "f", "g", "h"]
 
-# OK version 🤔 - Index in range ❌ 
+# OK version 🤔 - Index in range ❌
 for i in range(len(A)):
     va, vb = A[i], B[i]
     print(i, va, vb)
